@@ -2,12 +2,10 @@
 
 }
 @media all and (max-width:670px) {
-  nav{
+  .judul{
+     font-size: 10px;
+  }
+  nav {
     width:100%;
-    background-color: #e6ac00;
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    top:0;
   }
 }
