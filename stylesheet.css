@@ -22,19 +22,19 @@ header {
   text-align: center;
 }
 nav{
+  width: 100%;
   background-color: #e6ac00;
   position: sticky;
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
   top:0;
 }
 .logo{
-  margin: 15px 810px 15px 20px;
+  margin: 15px 0 15px 20px;
+  float: left;
 }
 ul{
   margin: 0;
   margin-right: 20px;
-  flex-direction: row;
   float: right;
 }
 li a{
