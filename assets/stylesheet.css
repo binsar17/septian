@@ -12,6 +12,10 @@ p {
     line-height: 25px;
 }
 
+hr{
+  width: auto;
+}
+
 header {
   display:inline;
 }
@@ -86,6 +90,14 @@ main{
   font-size: 15px;
   text-align: left;
 }
+article{
+  text-align: center;
+}
+.articles{
+  margin-left: 40px;
+  text-align: left;
+}
+
 
 aside {
   width: 25%;
