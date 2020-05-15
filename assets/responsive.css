@@ -1,0 +1,39 @@
+@media all and (max-width:1000px) {
+
+}
+@media all and (max-width:670px) {
+  .judul {
+    padding: 25px 0;
+  }
+  .judul p{
+    text-align: left;
+    margin: 0 15px;
+  }
+  .logo img{
+    margin: 0;
+    margin-left: 20px;
+    width: 20%;
+  }
+
+  li a{
+    padding: 13px 5px 13px 5px;
+  }
+
+  ul{
+    margin-right: 13px;
+  }
+  main{
+    flex-direction: column;
+  }
+  .container-main{
+    width: 100%;
+  }
+  .content{
+    width: 100%;
+  }
+
+  aside{
+    width: 100%;
+  }
+
+}
