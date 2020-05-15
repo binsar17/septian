@@ -16,6 +16,10 @@ hr{
   width: auto;
 }
 
+blockquote{
+  margin: 0;
+}
+
 header {
   display:inline;
 }
@@ -94,7 +98,6 @@ article{
   text-align: center;
 }
 .articles{
-  margin-left: 40px;
   text-align: left;
 }
 
@@ -117,4 +120,17 @@ table {
 }
 td th{
   text-align: left;
+}
+
+.copyright {
+  width: 100%;
+  color: black;
+  background-color: #ffbf00;
+  padding: 5px 0;
+}
+
+.teks{
+  font-size: 15px;
+  margin: 0 40px;
+  padding: 0;
 }
