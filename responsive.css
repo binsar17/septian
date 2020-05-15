@@ -3,11 +3,11 @@
 }
 @media all and (max-width:670px) {
   .judul {
-
     padding: 40px 0;
   }
   .judul p{
     text-align: left;
+    margin: 0 15px;
   }
   .logo img{
     margin: 0;
