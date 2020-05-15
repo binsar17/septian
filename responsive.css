@@ -1,5 +1,22 @@
 @media all and (max-width:1000px) {
+  .judul {
+    padding: 40px 0;
+  }
+  .judul p{
+    text-align: left;
+  }
+  .logo img{
+    margin: 0;
+    margin-left: 20px;
+    width: 20%;
+  }
+  li a{
+    padding: 15px 5px 15px 5px;
+  }
 
+  ul{
+    margin-right: 13px;
+  }
 }
 @media all and (max-width:670px) {
   .judul {
