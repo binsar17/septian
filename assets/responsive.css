@@ -20,6 +20,10 @@
     padding: 0;
   }
 
+  .gmail img, p {
+    margin-right: 7px;
+  }
+
 }
 @media all and (max-width:670px) {
   .judul {

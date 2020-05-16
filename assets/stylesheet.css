@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Quicksand, sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -46,7 +46,7 @@ header {
 }
 nav{
   width: 100%;
-  background-color: #e6ac00;
+  background-color: #ffbf00;
   position: sticky;
   display: inline-block;
   top:0;
@@ -92,6 +92,7 @@ main{
    border-radius: 5px;
    padding: 20px;
    margin-top: 20px;
+   background-color: #ffffcc;
 }
 .container-main{
   width: 75%;
@@ -119,19 +120,34 @@ aside {
   height: 30%;
   text-align: center;
 }
-.myprofile img {
+.myprofile {
   position: static;
   border-radius: 50%;
+  flex-direction: column;
   border: 3px ridge black;
 }
-.myprofile{
-  flex-direction: column;
-}
+
 table {
   text-align: left;
 }
 td th{
   text-align: left;
+}
+
+.contact-person{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+
+.gmail img, p {
+  margin-right: 10px;
+}
+
+.whatsapp img, p{
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .copyright {
@@ -161,6 +177,7 @@ td th{
 .cardft {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    border-radius: 5px;
-   padding: 10px;
-   margin-top: 10px;
+   padding: 7px;
+   margin: 10px 0 0 0;
+   background-color: #d9d9d9;
 }
