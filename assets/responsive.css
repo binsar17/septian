@@ -24,7 +24,6 @@
 @media all and (max-width:670px) {
   .judul {
     background-image: url(media/broken.jpg);
-    animation: none;
     padding: 25px 0;
   }
   .judul p{
